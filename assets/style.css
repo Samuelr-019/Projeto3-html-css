@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  padding-top: 44px;
+  padding-left: 76px;
+}
+
+.links{
+  color: #989D9C;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 23px;
+}
+
+.log-in{
+  width: 130px;
+  height: 41px;
+  border: none;
+  border-radius: 50px;
+  background-color: #665AE1;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.img-logo{
+  display: inline-block;
+  margin: 144px 0 0 125px;
+  position: relative;
+  width: auto;
+}
+
+.conteudo{
+  display: inline-block;
+  margin-left: 86px;
+  position: relative;
+  bottom: 70px;
+}
+
+h1{
+  color: #515151;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+h2{
+  color: #515151;
+  font-size: 58px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+p{
+  color: #848484;
+  font-size: 24px;
+  font-weight: 400;
+  width: 515px;
+  margin-bottom: 65px;
+}
+
+.exp{
+  width: 239px;
+  height: 64px;
+  border: none;
+  border-radius: 50px;
+  background: #ADFF00;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.log-in:hover{
+  background-color: rgba(255, 255, 255, .1);
+  color: #665AE1;
+  transition: all .1s ease-in;
+  border: #665AE1 1px solid;
+}
+
+.links:hover{
+  color: #665AE1;
+}
+
+.log-in:active{
+  color: rgba(139, 139, 255, 0.596);
+  border: rgba(139, 139, 255, 0.596) 1px solid;
+}
+
+@media screen and (max-width: 700px){
+
+  main{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  header{
+    display: none;
+  }
+
+  p{
+    display: none;
+  }
+  
+  .img-logo{
+    position: static;
+    width: 85%;
+    margin: 149px 62.5px 50px 62.5px;
+  }
+  
+  .conteudo{
+    align-items: center;
+    position: static;
+    margin: 0 86px;
+  }
+  h1{
+    text-align: center;
+    width: 263px;
+    height: 52px;
+    font-size: 50px;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .exp{
+    margin: auto;
+  }
+}
